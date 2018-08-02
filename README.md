@@ -19,7 +19,7 @@ It internally uses redux store you already use in your app
     yarn add infinite-scrollable
 ```
 
-##Example
+## Example
 ```javascript
 import Component from '../SomeComponent';
 
