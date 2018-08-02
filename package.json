@@ -1,0 +1,32 @@
+{
+  "name": "infinite-scrollable",
+  "version": "1.0.0",
+  "description": "HOC that makes react component to be infinite scrollable",
+  "main": "index.js",
+  "repository": "https://github.com/shharn/infinite-scrollable",
+  "author": "shharn2",
+  "license": "MIT",
+  "scripts": {
+    "build": "mkdir -p dist && cross-env NODE_ENV=production babel src/index.js --out-file dist/InfiniteScrollable.js"
+  },
+  "private": false,
+  "keywords": [
+    "react",
+    "infinite",
+    "scroll",
+    "scrollable"
+  ],
+  "peerDependencies": {
+    "react": "^16.0.0",
+    "react-redux": "^5.0.7",
+    "redux": "^4.0.0"
+  },
+  "dependencies": {
+    "babel-preset-react-app": "^3.1.2",
+    "cross-env": "^5.2.0",
+    "react": "^16.4.2",
+    "react-redux": "^5.0.7",
+    "redux": "^4.0.0",
+    "webpack": "^4.16.3"
+  }
+}
